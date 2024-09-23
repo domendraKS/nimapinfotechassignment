@@ -1,0 +1,11 @@
+.backdropImage {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .backdropImage {
+    width: 40%;
+    object-fit: contain;
+    display: block;
+  }
+}
